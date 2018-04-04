@@ -11,7 +11,6 @@ alias prettyjson='python -m json.tool'
 
 PS1='\w$(__git_ps1 " \[\033[32m\](%s)\[\033[m\]") \$ '
 
-# nvm setup
+# load nvm
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
