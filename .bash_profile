@@ -8,6 +8,8 @@ alias gti='git'
 alias ll='ls -la'
 alias myip="echo $(ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}')"
 alias prettyjson='python -m json.tool'
+alias chrome='open -a Google\ Chrome --args'
+alias chrome-no-cors='chrome --disable-web-security --user-data-dir'
 
 PS1='\w$(__git_ps1 " \[\033[32m\](%s)\[\033[m\]") \$ '
 
