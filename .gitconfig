@@ -1,0 +1,12 @@
+[user]
+	name = Wilson Page
+	email = wilsonpage@me.com
+[alias]
+	co = checkout
+	di = diff
+	ci = commit
+	st = status
+	lg = log --oneline -10
+	pr = pull-request
+	br = branch
+	cp = cherry-pick
