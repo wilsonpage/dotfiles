@@ -15,4 +15,4 @@ PS1='\w$(__git_ps1 " \[\033[32m\](%s)\[\033[m\]") \$ '
 
 # load nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+. "/usr/local/opt/nvm/nvm.sh"
