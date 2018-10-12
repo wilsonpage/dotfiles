@@ -5,7 +5,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 alias gti='git'
-alias ll='ls -la'
+alias ll='ls -lah'
 alias myip="echo $(ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}')"
 alias prettyjson='python -m json.tool'
 alias chrome='open -a Google\ Chrome --args'
